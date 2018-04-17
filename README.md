@@ -12,7 +12,9 @@ Simulator Server
 1. 开发平台升级：C++ Builder 6.0切换到VS 2017
 2. web界面层：原来是基于C++ Builder 6.0的界面控件，现在要切换到web
 3. http服务层：如果是C++里提供http，可以考虑mongoose
-4. 数据处理层：原来是通过C++ Builder 6.0的zeoslib来访问MySQL，现在要切换到MySQL connector C++
-5. 其他代码优化，包括C++实践和面向对象设计的优化
+4. 网络处理层: 仍然基于IOCP来做，不过要优化原有的设计
+5. 数据处理层：原来是通过C++ Builder 6.0的zeoslib来访问MySQL，现在要切换到MySQL connector C++
+6. 其他代码优化，包括C++实践和面向对象设计的优化
 
 进度
+
