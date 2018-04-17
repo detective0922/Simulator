@@ -13,8 +13,15 @@ Simulator Server
 2. web界面层：原来是基于C++ Builder 6.0的界面控件，现在要切换到web
 3. http服务层：如果是C++里提供http，可以考虑mongoose
 4. 网络处理层: 仍然基于IOCP来做，不过要优化原有的设计
-5. 数据处理层：原来是通过C++ Builder 6.0的zeoslib来访问MySQL，现在要切换到MySQL connector C++
+5. 数据处理层：原来是通过C++ Builder 6.0的zeoslib来访问MySQL，现在要切换到MySQL connector C++,需要重新设计相关类，尽量使API与原来相似
 6. 其他代码优化，包括C++实践和面向对象设计的优化
 
+主要的类：
+Simulator:
+DBConnector:
+Network:
+
+
 进度
+
 
