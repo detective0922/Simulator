@@ -14,3 +14,5 @@ Simulator Server
 3. http服务层：如果是C++里提供http，可以考虑mongoose
 4. 数据处理层：原来是通过C++ Builder 6.0的zeoslib来访问MySQL，现在要切换到MySQL connector C++
 5. 其他代码优化，包括C++实践和面向对象设计的优化
+
+进度
