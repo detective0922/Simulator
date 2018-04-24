@@ -18,10 +18,16 @@ Simulator Server
 
 主要的类：
 Simulator:
-DBConnector:
+
+DBConnector：
+ExecSQL();
+Add();
+Clear();
+resultSet;
+
 Network:
 
 
 进度
-
+1.初步完成了一个简单的DBConnector，API与zeoslib尽量一直
 
