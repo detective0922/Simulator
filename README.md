@@ -27,7 +27,9 @@ resultSet;
 
 Network:
 
+NE(Network Element,网络设备)：
 
 进度
 1.初步完成了一个简单的DBConnector，API与zeoslib尽量一直
+2.改造NE（网络设备）类，移除原来C++ Builder相关的API，用std里相关的API代替
 
