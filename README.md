@@ -30,13 +30,21 @@ Network:
 NE(Network Element,网络设备)：
 
 NEManager:
+private:
 +initNEDB
 +initNEMem
-+initNESocket
-+queryNEDB
++initNENetwork
++queryNE
++queryAllNE
+public:
 +addNE = (initNEDB + initNEMem + initNESocket)
 +loadNE = (queryNEDB + initNEMem + initNESocket)
-+loadAllNE
++loadAllNE = (queryAllNE + foreach(loadNE))
+
+DTO:
+NEInfoDTO
+DAO:
+NEInfoDAO
 
 进度
 1.初步完成了一个简单的DBConnector，API与zeoslib尽量一直(Done)
