@@ -33,21 +33,34 @@ NEManager:
 private:
 +initNEDB
 +initNEMem
-+initNENetwork
++initNENetwork= addIP + initNESocket
 +queryNE
 +queryAllNE
 public:
-+addNE = (initNEDB + initNEMem + initNESocket)
-+loadNE = (queryNEDB + initNEMem + initNESocket)
++addNE = (initNEDB + initNEMem + initNENetwork)
++loadNE = (queryNEDB + initNEMem + initNENetwork)
 +loadAllNE = (queryAllNE + foreach(loadNE))
+新增部分用DTO和DAO
 
 DTO:
 NEInfoDTO
 DAO:
 NEInfoDAO
 
+NESimulator：
+NEList
+DB driver
+Http
+Workthread
+
+IOCP如何处理：
+
+
+
 进度
-1.初步完成了一个简单的DBConnector，API与zeoslib尽量一直(Done)
+1.初步完成了一个简单
+
+的DBConnector，API与zeoslib尽量一直(Done)
 2.改造NE（网络设备）类，移除原来C++ Builder相关的API，用std里相关的API代替(Done)
 3.新增NEManager类，整合梳理原来NE相关的API
 
