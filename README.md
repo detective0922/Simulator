@@ -53,7 +53,18 @@ DB driver
 Http
 Workthread
 
-IOCP如何处理：
+IOCP类：
+
+
+IOCP部分重构，参考muduo的设计(暂缓，先整理下原有IOCP类的代码)：
+Buffer
+EventLoop
+Connection
+Server
+不考虑client
+
+NE属性解析类整理：
+TP
 
 
 
