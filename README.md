@@ -66,6 +66,9 @@ Server
 NE属性解析类整理：
 TP
 
+Log打印类整理：
+Var->Log
+
 
 
 进度
