@@ -54,7 +54,7 @@ Http
 Workthread
 
 IOCP类：
-
+删除部分无用的API
 
 IOCP部分重构，参考muduo的设计(暂缓，先整理下原有IOCP类的代码)：
 Buffer
