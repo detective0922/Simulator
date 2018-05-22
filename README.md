@@ -69,7 +69,9 @@ TP
 Log打印类整理：
 Var->Log
 
-
+开始处理UI和HTTP：
+基于vue和element-ui
+HTTP基于mongoose
 
 进度
 1.初步完成了一个简单
@@ -77,4 +79,7 @@ Var->Log
 的DBConnector，API与zeoslib尽量一直(Done)
 2.改造NE（网络设备）类，移除原来C++ Builder相关的API，用std里相关的API代替(Done)
 3.新增NEManager类，整合梳理原来NE相关的API
-
+4.IOCP类改造完成
+5.成功编译
+6.成功创建NE
+7.
