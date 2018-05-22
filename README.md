@@ -71,7 +71,8 @@ Var->Log
 
 开始处理UI和HTTP：
 基于vue和element-ui
-HTTP基于mongoose
+HTTP基于mongoose+Rapidjson还是C++ REST SDK?
+mongoose+Rapidjson调试成功，从目前来看，这种方式简单有效，只需要包含相关的头文件即可
 
 进度
 1.初步完成了一个简单
